@@ -7,8 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	
-	<form action="result.jsp">
+	<%request.setCharacterEncoding("utf-8"); %>
+	<form action="result.jsp" method="post">
 		<input type="text" name="text" placeholder="숫자 입력"><br>
 		<input type="radio" name="gender" value="남자">남
 		<input type="radio" name="gender" value="여자">여<br>
