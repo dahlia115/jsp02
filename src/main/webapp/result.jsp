@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	입력하신 수는<%=request.getParameter("text") %>이고,<br>
-	당신은 <%=request.getParameter("gender") %> 이군요~
+	입력하신 수는<b><%=request.getParameter("text") %></b>이고,<br>
+	당신은 <b><%=request.getParameter("gender") %></b> 이군요~
 </body>
 </html>
