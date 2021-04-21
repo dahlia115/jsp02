@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	컨텍스트 패스 <%= request.getContextPath() %><br>
+	요청방식 <%= request.getMethod() %>
 </body>
 </html>
